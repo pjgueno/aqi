@@ -39,8 +39,8 @@ body { height: 100%;
     left: 20px;
     bottom: 0px;
     height: 40%;
-    width: 150px; 
-    z-index: 1000;
+    width: 250px; 
+    z-index: 999;
     background-color: rgba(238,238,238,0.0);
     }
 
@@ -150,26 +150,6 @@ body { height: 100%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #legendaqi span {
     display: inline-block;
     width: 15px;
@@ -203,6 +183,41 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+
+
+
+
+
+
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip div {
+    display:none;
+}
+.tooltip:hover div {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+    background-color: white;
+    z-index:1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul {
     display: block;

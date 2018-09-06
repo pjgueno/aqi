@@ -57,6 +57,33 @@
     .style("display", "none");
 
 
+
+
+var tooltipDiv = document.getElementsByClassName('tooltip-div');
+
+
+console.log(tooltipDiv);
+
+window.onmousemove = function (e) {
+    var x = e.clientX,
+        y = e.clientY;
+    
+    
+    
+    for (var i = 0; i < tooltipDiv.length; i++) {
+       tooltipDiv.item(i).style.top = (y + 1 )+ 'px';
+   tooltipDiv.item(i).style.left = (x + 20) + 'px';};
+    
+    
+    
+};
+
+
+
+
+
+
+
     window.onload=function(){
         
           if (!navigator.geolocation){
