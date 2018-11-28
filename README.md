@@ -1,8 +1,8 @@
-#LuftDatenWebApp
+# LuftDatenWebApp
 
 A webapp to visualize the data of the http://luftdaten.info project at the Open Knowledge Lab Stuttgart, Germany.
 
-It uses angular.js, leaflet.js and D3.js.
+It uses leaflet.js and D3.js.
 
 https://github.com/opendata-stuttgart
 
